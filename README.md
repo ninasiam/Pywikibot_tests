@@ -7,4 +7,4 @@ The main script is: the tasks that are impolemented are:
   - Append new lines of text at the end of the page and save it.
 
 
-The output is appended to a log.txt file.
+The output is appended to the log.txt file.
