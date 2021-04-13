@@ -1,7 +1,7 @@
 # Pywikibot_tests
 Getting familiar with pywikibot api, for outreachy 2021 wikidata project - Task 2.
 
-In the main_script the following tasks are implemented:
+In the main_script.py the following tasks are implemented:
   - Log in to a Wikimedia account
   - Connect to an already existing site for and print it out (the one created for Task 1).
   - Append new lines of text at the end of the page and save the changes.
