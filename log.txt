@@ -2,7 +2,7 @@ Synchronising Wikidata and Wikipedias using pywikibot - Task 2
 Nina Siaminou
 Outreachy 2021
 =======================================================
-The printing of the page created for Task 1 is printed...:
+The page created for Task 1 is printed...:
 ===== Outreachy 2021 =====
 ==== Applicant: Nina Siaminou ====
 ==== Project: Synchronising Wikidata and Wikipedias using pywikibot - Task 1 ====
