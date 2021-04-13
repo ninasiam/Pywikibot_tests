@@ -114,7 +114,7 @@ def main():
     print("Nina Siaminou")
     print("Outreachy 2021")
     print("=======================================================")
-    print("The printing of the page created for Task 1 is printed...:")
+    print("The page created for Task 1 is printed...:")
 
     # 2.
     # Hard wired parameters
