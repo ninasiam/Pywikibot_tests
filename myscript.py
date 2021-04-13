@@ -151,7 +151,7 @@ def main():
 
     # Bonus
     test_property = 'P31' # instance of
-    test_value = 'Q5'  # Sandbox
+    test_value = 'Q5'  # human
     editwikidata(enwiki_repo, wd_item, test_property, test_value)
 
     test_property2 = 'P276' # location
