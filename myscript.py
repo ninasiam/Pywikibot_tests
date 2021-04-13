@@ -47,12 +47,12 @@ def load_wditem(wd_item: pywikibot.ItemPage) -> None:
 
     # the label of sandbox in greek
     try:
-        print("Name: " +  wd_item_dict['labels']['el'])
+        print(f"Name: {wd_item_dict['labels']['el']}")
     except:
         print("No Greek label!")
     # check if there is a greek version available
     try:
-        print("The greek version of the article: " + wd_item_dict['sitelinks']['el'])
+        print(f"The greek version of the article: {wd_item_dict['sitelinks']['el']}")
     except:
         print("No greek version!")
 
@@ -128,7 +128,7 @@ def main():
     # 3. print the content of the chosen page in a text format.
     print(mypage.text)
 
-    # 4. Try append a line at the end of the file
+    # 4. Try append a line at the of the file
     # add seperator 
     print("\n")
     seperator = "\n== Task 2 =="
@@ -150,9 +150,9 @@ def main():
     load_wditem(wd_item_lyre)
 
     # Bonus
-    # test_property = 'P31' # instance of
-    # test_value = 'Q5'  # Sandbox
-    # editwikidata(enwiki_repo, wd_item, test_property, test_value)
+    test_property = 'P31' # instance of
+    test_value = 'Q5'  # Sandbox
+    editwikidata(enwiki_repo, wd_item, test_property, test_value)
 
     test_property2 = 'P276' # location
     test_value2 = 'Q466' # WWW
