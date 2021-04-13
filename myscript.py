@@ -75,7 +75,7 @@ def load_wditem(wd_item: pywikibot.ItemPage) -> None:
             print(f"For property {claim}")
             for property_t in dict_claims[claim]:
                 p_value = property_t.getTarget()
-                print("Value is: " + p_value.title())
+                print(f"Value is:  {p_value.title()}")
                 print()
     except:
         print("ERROR: could not parse the item")
@@ -128,7 +128,7 @@ def main():
     # 3. print the content of the chosen page in a text format.
     print(mypage.text)
 
-    # 4. Try append a line at the of the file
+    # 4. Try append a line at the end of the file
     # add seperator 
     print("\n")
     seperator = "\n== Task 2 =="
