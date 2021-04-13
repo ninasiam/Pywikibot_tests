@@ -1,0 +1,457 @@
+Synchronising Wikidata and Wikipedias using pywikibot - Task 2
+Nina Siaminou
+Outreachy 2021
+=======================================================
+The printing of the page created for Task 1 is printed...:
+===== Outreachy 2021 =====
+==== Applicant: Nina Siaminou ====
+==== Project: Synchronising Wikidata and Wikipedias using pywikibot - Task 1 ====
+
+The main subject is musical instruments. <br>
+Comments: Some Q values in the qualifier section have no label. If there is a problem I can remove them.
+
+== Electric Guitar ==
+
+The [[:en:electric guitar]] is a {{P|P279}} {{Q|Q1051772}} (in the first paragraph of the article). The electric guitar<br>
+is also a {{P|P279}} {{Q|Q6607}} (in the first paragraph). It is {{P|P1535}} {{Q|Q855091}} in various <br>
+types of {{Q|Q188451}} (in the fourth paragraph). It is {{P|P186}} like {{Q|Q287}}, {{Q|Q11426}}, {{Q|Q11474}} (Construction section, first paragraph). <br>
+The {{Q|Q858576}} of the electric guitar is {{Q|Q1125102}} (added property). The electric guitar {{P|P61}} is {{Q|Q596713}} (in the History section). <br>
+The electric guitar is {{P|P1889}} from the classic acoustic guitars, since is {{Q|Q381651}} (in the History section).
+
+(Properties: {{P|P186}} is not present on the statement list)
+
+== Violin ==
+
+The [[:en:violin]] is also a {{P|P279}} {{Q|Q1051772}} (or {{Q|Q1798603}}) (in the first paragraph of the article, infobox). It is <br>
+{{P|P186}} as {{Q|Q287}} (in the fifth paragraph). The {{P|P176}} of {{Q|Q8355}} is the {{Q|Q762707}} (in the fourth paragraph). <br>
+{{Q|Q1068162}} violins {{P|P3938}}  {{Q|Q182011}} (Not present with this Q value). The Violin {{P|P3113}} {{Q|Q636309}} (in the Left hand and pitch production section).
+
+(Properties: {{P|P186}}, {{P|P176}}, {{P|P3113}} and {{P|P3938}} are not present on the statement list)
+
+== Harp ==
+
+The [[:en:harp]] is a {{P|P279}} {{Q|Q1051772}} (in the infobox). It is {{P|P186}} like {{Q|Q287}}, and {{Q|Q177941}} (in the first section). <br>
+The {{Q|Q858576}} of the harp is {{Q|Q1022293}} (added property). It is {{Q|Q26256352}} to the {{Q|Q201129}} (throughout the text). Paintings usually {{P|P180}} harps along with {{Q|Q235113}} (in the section religious). 
+
+(Properties: {{P|P180}} is not present on the statement list)
+
+== Drum kit ==
+The [[:en:drum kit]] is a {{P|P279}} {{Q|Q133163}} (in the first paragraph). It {{P|P527}} {{Q|Q11404}} and {{Q|Q190172}}  (in the first paragraph). <br>
+The drums are {{P|P279}} {{Q|Q212892}} (in the first paragraph). It is {{P|P186}} like {{Q|Q287}}, {{Q|Q11426}}, {{Q|Q11474}} (not explicitly stated). Till recently drum was {{P|P186}} like {{Q|Q3291230}} <br>
+(not present). A Drum kit can be {{P|P195}} of drums depending on the {{Q|Q188451}}  (in the third paragraph).
+
+(Properties: {{P|P186}}, {{P|P527}} are not present on the statement list)
+
+== Flute ==
+The [[:en:flute]] is a {{P|P279}} {{Q|Q173453}} (in the first paragraph). During times flutes were {{P|P186}} like {{Q|Q287}}, <br> 
+{{Q|Q287}}, {{Q|Q670887}} (throughout all sections). Flute {{P|P1319}} from {{Q|Q40203}} till now (throughout all sections).
+
+(Properties: {{P|P186}} is not present on the statement list)
+
+== Piano ==
+The [[:en:piano]] is a {{P|P279}} {{Q|Q1051772}} (in the first paragraph and infobox). It {{P|P527}} {{Q|Q901207}}, with 88 keys (in the first section) <br> 
+and {{Q|Q4591805}} (in the pedals section). Piano {{P|P575}} {{Q|Q301597}} in {{P|P585}} 1700 (in the first section). <br>
+The {{Q|Q745780}} of the piano is 7 {{Q|Q386025}} (in the keyboard section). Piano has {{P|P1897}} the {{Q|Q263478}} {{Q|Q843813}} and the {{Q|Q744346}} as {{P|P1898}} (not explicitly stated).
+
+(Properties: {{P|P527}} is not present on the statement list)
+
+== Human Voice ==
+The {{P|P366}} of [[:en:human voice]] for {{Q|Q27939}} without {{Q|Q34379}} on {{Q|Q185298}} (not present). The {{Q|Q202785}} human voice has {{Q|Q1042979}} about two {{Q|Q386025}} (not present). <br>
+The {{P|P1897}} achieved is {{Q|Q2652945}} in the 8th {{Q|Q386025}}, a {{Q|Q688615}} ({{P|P854}}: https://www.guinnessworldrecords.com/world-records/79003-highest-vocal-note-by-a-male) (not present).
+
+(Properties: {{P|P1897}} is not present on the statement list)
+
+== Qualifiers ==
+Qualifiers are used to add more information to a property value pair. Qualifiers also use the P() annotation similar to properties.
+ - They are used to expand the information given by the property-value pair.
+ - To add clarification when needed.
+ - For plural property values.
+
+In the electric guitar statement list: 
+# {{P|P2888}} has two values (links), 
+# {{P|P527}} has two values (parts of the guitar): {{Q|Q326426}}, {{Q|Q572648}},
+# {{P|P1889}} has two values:  {{Q|Q1112687}}, {{Q|Q46185}}.
+
+
+In the violin statement list: 
+# {{P|P166}} {{Q|Q48757486}} -> has a qualifier value pairs: {{P|P585}}-2020, {{P|P276}}-{{Q|Q183}}, 
+# {{P|P527}} has eleven values -> {{Q|1116074}}, {{Q|745887}},  {{Q|254155}},  {{Q|830869}}, {{Q|1402002}}, {{Q|896967}}, {{Q|1742233}},  {{Q|944038}}, {{Q|Q11200647}}, {{Q|Q1189953}}, {{Q|Q660436}} .
+# {{P|P1343}} has four values (sources), all of them have a qualifier value pair:
+{{Q|Q19538713}} -> {{P|P805}}-{{Q|Q23904067}}, {{Q|Q27680201}} -> {{P|P805}}-{{Q|Q27772885}}, {{Q|Q602358}} -> {{P|P805}}-{{Q|Q24487236}}, {{Q|Q63284758}} -> {{P|P805}}-{{Q|Q98140233}}
+ 
+
+In the harp statement list: 
+# {{P|P279}} has two values: {{Q|Q230262}}, {{Q|Q19588495}}, 
+# {{P|P361}} has two values: {{Q|Q26836418}}, {{Q|Q53424891}}, 
+# {{P|P166}} {{Q|Q48757486}} -> has a qualifier value pairs: {{P|P585}}-2016.
+# {{P|P1343}} has seven values (sources), all of them have a qualifier value pair:
+{{Q|Q2657718}} -> {{P|P478}}-11 {{P|P304}}-598, {{Q|Q27680201}} -> {{P|P805}}-{{Q|Q27771522}}, {{Q|Q20078554}} -> {{P|P805}}-{{Q|Q43413607}}, {{Q|Q63284758}} -> {{P|P805}}-{{Q|Q98140233}}
+{{Q|Q19180675}} -> {{P|P805}}-{{Q|Q24743489}}, {{Q|Q2152210}} -> {{P|P805}}-{{Q|Q27771001}}, {{Q|Q867541}} -> {{P|P805}}-{{Q|Q84643952}}.
+
+
+In the drum kit statement list:
+# {{P|P279}} has two values: {{Q|Q133163}}, {{Q|Q55723238}},
+# {{P|P527}} has eleven values -> {{Q|211028}}, {{Q|190172}},  {{Q|Q6566344}},  {{Q|Q208421}}, {{Q|Q849349}}, {{Q|Q3305735}}, {{Q|Q963334}}.
+
+
+In the flute statement list:
+# {{P|P279}} has two values: {{Q|Q173453}}, {{Q|Q181247}},
+# {{P|P1343}} has four values (sources), all of them have a qualifier value pair:
+{{Q|Q27680201}} -> {{P|P805}}-{{Q|Q27771397}}, {{Q|Q19180675}} -> {{P|P805}}-{{Q|Q24746907}}, {{Q|Q602358}} -> {{P|P805}}-{{Q|Q24509392}}, {{Q|Q1768721}} -> {{P|P805}}-{{Q|Q96600939}}
+
+
+In the piano list:
+# {{P|P279}} has two values: {{Q|Q3152898}}, {{Q|Q52954}} {{Q|Q4951628}},
+# {{P|P1343}} has three values (sources), all of them have a qualifier value pair:
+{{Q|Q27680201}} -> {{P|P805}}-{{Q|Q27771289}}, {{Q|Q602358}} -> {{P|P805}}-{{Q|Q24511152}}, {{Q|Q602358}} -> {{P|P805}}-{{Q|Q24746302}}.
+{{P|P1898}} - {{Q|Q744346}} has a qualifier -> {{P|P518}} - {{Q|Q60054237}}, {{P|P2144}} - 27.50
+
+In the human vocal statement list:
+# {{P|P361}} - {{Q|Q31479975}} has qualifier -> {{P|P642}}-{{Q|Q5}}
+# {{P|P2579}} - has two values {{Q|Q40998}}, {{Q|Q82811}}  
+# {{P|P366}} - has six values {{Q|Q52946}}, {{Q|Q27939}}, {{Q|Q170579}}, {{Q|Q152247}}, {{Q|Q1206488}}, {{Q|Q25481968}}
+# {{P|P1343}} has six values (sources), all of them have a qualifier value pair:
+{{Q|Q20961706}} -> {{P|P805}}-{{Q|Q24451428}}, {{Q|Q19180675}} -> {{P|P805}}-{{Q|Q24451430}}, {{Q|Q1970746}} -> {{P|P805}}-{{Q|Q24451429}}
+{{Q|Q602358}} -> {{P|P805}}-{{Q|Q24411814}}, {{Q|Q602358}} -> {{P|P805}}-{{Q|Q24411823}}, {{Q|Q20078554}} -> {{P|P805}}-{{Q|Q98708782}}.
+
+== Additions ==
+
+The presented articles are locked, thus I made an addition to the [[:en:lyre]]: 
+{{P|P1889}}-{{Q|Q10484}}.
+
+
+Sleeping for 8.3 seconds, 2021-04-14 01:37:17
+Page [[wikidata:User:Nina Siam/Outreachy 1]] saved
+Sleeping for 7.4 seconds, 2021-04-14 01:37:28
+Page [[wikidata:User:Nina Siam/Outreachy 1]] saved
+The title of the loaded item is: Q4115189
+Name: Πρόχειρο των Wikidata
+No greek version!
+Iterate through available languages of the loaded item:
+Language nn:  - : Wikidata-sandkasse
+
+Language ru:  - : Викиданные:Песочница
+
+Language en-ca:  - : Wikidata Sandbox
+
+Language fi:  - : Wikipedia:Wikidata/Wikidata Sandbox
+
+Language pt:  - : Página de testes do projeto Wikidata;
+
+Language hu:  - : Wikipédia:Wikidata/Homokozó
+
+Language ka:  - : ვიკიმონაცემების სავარჯიშო
+
+Language sk:  - : Wikiúdaje pieskovisko
+
+Language ia:  - : sabliera de Wikidata
+
+Language ko:  - : 위키데이터 연습장
+
+Language gl:  - : Zona de probas do Wikidata
+
+Language zh-hant:  - : 維基數據沙盒
+
+Language zh-tw:  - : 維基數據沙盒
+
+Language pt-br:  - : Página de testes do projeto Wikidata
+
+Language zh-hans:  - : 维基数据沙盒
+
+Language el:  - : Πρόχειρο των Wikidata
+
+Language bjn:  - : Pamandiran
+
+Language zh:  - : 维基数据测试沙盒
+
+Language cs:  - : Wikidata pískoviště
+
+Language ar:  - : ملعب ويكي داتا
+
+Language dsb:  - : Grajkanišćo Wikidata
+
+Language fa:  - : صفحهٔ تمرین ویکی داده
+
+Language pl:  - : Brudnopis Wikidanych
+
+Language da:  - : Wikidata Sandbox
+
+Language nl:  - : Wikidata-zandbak
+
+Language de-at:  - : Sandbox
+
+Language it:  - : pagina delle prove di Wikidata
+
+Language te:  - : వాడుకరి:Naresh Krishna Raja
+
+Language ku-latn:  - : turkey
+
+Language tr:  - : sinem
+
+Language sv:  - : Wikipedia:Wikidata/Sandlåda för Wikidata
+
+Language fr:  - : bac à sable Wikidata
+
+Language ja:  - : ウィキデータ・サンドボックス
+
+Language en-gb:  - : Wikidata Sandbox
+
+Language en:  - : bear
+
+Language de:  - : Wikidata-Spielwiese
+
+Language bn:  - : উইকিউপাত্ত খেলাঘর
+
+Language br:  - : bailh-traezh Wikidata
+
+Language ca:  - : Viquipèdia:Proves de Wikidata
+
+Language ms:  - : Kotak Pasir Wikidata
+
+Language es:  - : Wikipedia:Wikidata/Zona de pruebas
+
+Language be:  - : тайны бытия
+
+Iterate through claims:
+For property P31
+Value is: Q21281405
+
+Value is: Q5
+
+For property P460
+Value is: Q13406268
+
+Value is: Q15397819
+
+For property P57
+Value is: Q60341
+
+For property P345
+Value is: Nm0010930
+
+For property P577
+ERROR: could not parse the item
+
+The title of the loaded item is: Q201129
+Name: λύρα
+No greek version!
+Iterate through available languages of the loaded item:
+Language zh-hans:  - : 里拉琴
+
+Language zh-hant:  - : 里拉琴
+
+Language zh-hk:  - : 里拉琴
+
+Language zh-cn:  - : 里拉琴
+
+Language zh-sg:  - : 里拉琴
+
+Language zh-tw:  - : 里拉琴
+
+Language pl:  - : Lira
+
+Language bs:  - : Lira
+
+Language fr:  - : lyre
+
+Language es:  - : lira
+
+Language hu:  - : líra
+
+Language it:  - : lira
+
+Language et:  - : Lüüra
+
+Language de:  - : Lyra
+
+Language id:  - : lira
+
+Language pnt:  - : Λύρα
+
+Language ja:  - : ライアー
+
+Language el:  - : λύρα
+
+Language en:  - : lyre
+
+Language sh:  - : Lira
+
+Language sv:  - : lyra
+
+Language nl:  - : lier
+
+Language pt:  - : lira
+
+Language eo:  - : liro
+
+Language tg-latn:  - : lirika
+
+Language ru:  - : лира
+
+Language sr-el:  - : lira
+
+Language sr-ec:  - : лира
+
+Language tr:  - : lir
+
+Language ca:  - : lira
+
+Language fi:  - : Lyyra
+
+Language la:  - : Lyra
+
+Language nn:  - : lyre
+
+Language cs:  - : lyra
+
+Language bg:  - : Лира
+
+Language io:  - : liro
+
+Language fa:  - : چنگ رومی
+
+Language arc:  - : ܟܢܪܐ
+
+Language hr:  - : lira
+
+Language lt:  - : Lyra
+
+Language da:  - : lyre
+
+Language tg:  - : лирика
+
+Language zh:  - : 里拉琴
+
+Language sr:  - : лира
+
+Language oc:  - : Lira
+
+Language be:  - : ліра
+
+Language he:  - : לירה
+
+Language ko:  - : 리라
+
+Language nb:  - : lyre
+
+Language uk:  - : Ліра
+
+Language ga:  - : Lir
+
+Language eu:  - : Lira
+
+Language uz:  - : Lira
+
+Language ro:  - : Liră
+
+Language lv:  - : Lira
+
+Language sl:  - : Lira
+
+Language fy:  - : Liere
+
+Language gl:  - : Lira
+
+Language vi:  - : Đàn Lia
+
+Language az:  - : Lira
+
+Language ar:  - : سمسمية
+
+Language hy:  - : քնար
+
+Language grc:  - : λύρα
+
+Language cy:  - : Lyra
+
+Language arz:  - : سمسميه (آلة)
+
+Language pt-br:  - : lira
+
+Language ka:  - : ქნარი
+
+Iterate through claims:
+For property P373
+Value is: Lyres
+
+For property P349
+Value is: 00617069
+
+For property P646
+Value is: /M/0L108
+
+For property P18
+Value is: File:Mousai Helikon Staatliche Antikensammlungen Schoen80 n1.jpg
+
+For property P1330
+Value is: 21Bd4D63-A75A-4022-Abd3-52Ba7487C2De
+
+For property P1296
+Value is: 0119537
+
+For property P279
+Value is: Q1814870
+
+Value is: Q230262
+
+For property P910
+Value is: Q9892270
+
+For property P1762
+Value is: 321.21-5
+
+For property P227
+Value is: 4168390-0
+
+For property P508
+Value is: 29493
+
+For property P2924
+Value is: 2175064
+
+For property P3827
+Value is: Lyres
+
+For property P1014
+Value is: 300042871
+
+For property P1343
+Value is: Q27680201
+
+Value is: Q20078554
+
+For property P1889
+Value is: Q3782415
+
+Value is: Q10484
+
+For property P3219
+Value is: Lyre-Musique
+
+For property P1417
+Value is: Art/Lira-Musical-Instrument
+
+Value is: Art/Lyra-Musical-Instrument
+
+For property P4212
+Value is: Pcrtbxwzui06Wx
+
+For property P1245
+Value is: 1012397
+
+For property P7749
+Value is: 10808
+
+For property P7033
+Value is: Scot/7639
+
+For property P7818
+Value is: Lyre
+
+Value is: Lyre_(Musique)
+
+For property P2596
+Value is: Q11772
+
+The claim to be added: Claim.fromJSON(DataSite("wikidata", "wikidata"), {'mainsnak': {'snaktype': 'value', 'property': 'P276', 'datatype': 'wikibase-item', 'datavalue': {'value': {'entity-type': 'item', 'numeric-id': 466}, 'type': 'wikibase-entityid'}}, 'type': 'statement', 'rank': 'normal'})
+Save? [y/n]: y
