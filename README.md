@@ -6,6 +6,6 @@ In the myscript.py the following tasks are implemented:
   - Connect to an already existing site and print it out (the one created for Task 1).
   - Append new lines of text at the end of the page and save the changes.
   - Load a Wikidata item (Sandbox) and print parts of its content.
-  - Add a new Property-Value pair to the Sandbox property.
+  - Add a new Property-Value pair to the Sandbox item.
 
 The output is appended to the log.txt file.
