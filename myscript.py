@@ -128,7 +128,7 @@ def main():
     # 3. print the content of the chosen page in a text format.
     print(mypage.text)
 
-    # 4. Try append a line at the of the file
+    # 4. Try append a line at the end of the file
     # add seperator 
     print("\n")
     seperator = "\n== Task 2 =="
