@@ -62,7 +62,7 @@ def load_wditem(wd_item: pywikibot.ItemPage) -> None:
         # dict_keys(['labels', 'descriptions', 'aliases', 'claims', 'sitelinks'])
         dict_wd = dict(wd_item_dict['labels'])
         for wd_property, wd_value_t in dict_wd.items():
-            print(f"Language {wd_property}: " + " - : "  + wd_value_t)
+            print(f"Language {wd_property}: {wd_value_t}")
             print()
     except:
         print("ERROR: could not parse the item")
