@@ -81,7 +81,7 @@ def load_wditem(wd_item: pywikibot.ItemPage) -> None:
         print("ERROR: could not parse the item")
         print()
 
-def editwikidata(wiki_repo: pywikibot.site._datasite.DataSite, wd_item: pywikibot.ItemPage, propertyid: str, value: str) -> None:
+def editwikidata(wiki_repo, wd_item: pywikibot.ItemPage, propertyid: str, value: str) -> None:
     """
         In: 
             wiki_repo (pywikibot.site._datasite.DataSite): the wikidata repo
