@@ -1,0 +1,80 @@
+The title of the loaded item is: Piano with Q-label: Q5994
+Template name: Infobox Instrument
+
+For template arg: hornbostel_sachs -> P1762 = 314.122-4-8
+For template arg: name -> P2561 = Piano
+For template arg: image -> P18 = Grand piano and upright piano.jpg
+For template arg: inventors -> P61 = [[Bartolomeo Cristofori]]
+related not available in the infobox
+For template arg: range -> P2343 = [[File:PianoRange.tif|frameless]]
+
+Iterate through available statements:
+For property: P18 = ["File:Steinway & Sons concert grand piano, model D-274, manufactured at Steinway's factory in Hamburg, Germany.png"]
+For property: P1762 = ['314.122-4-8']
+For property: P61 = ['Q301597']
+For property: P2343 = ['File:PianoRange.tif']
+****************************************
+The title of the loaded item is: Lyre with Q-label: Q201129
+Template name: Infobox Instrument
+
+For template arg: hornbostel_sachs -> P1762 = 321.2
+For template arg: name -> P2561 = Lyre
+For template arg: image -> P18 = Mousai Helikon Staatliche Antikensammlungen Schoen80 n1.jpg
+inventors not available in the infobox
+For template arg: related -> P7084 = * [[Çeng]]
+* [[Chang (instrument)]]
+* [[Cithara]] (''Kythara'')
+* [[Barbiton]] (Barbitos)
+* [[Crwth]]
+* [[Harp]]
+* [[Konghou]]
+No info found for arg: range
+
+Iterate through available statements:
+For property: P18 = ['File:Mousai Helikon Staatliche Antikensammlungen Schoen80 n1.jpg']
+For property: P1762 = ['321.21-5']
+****************************************
+The title of the loaded item is: Electric guitar with Q-label: Q78987
+Template name: Infobox Instrument
+
+For template arg: hornbostel_sachs -> P1762 = [[List of musical instruments by Hornbostel–Sachs number: 321.322|321.322]]
+For template arg: name -> P2561 = Electric guitar
+For template arg: image -> P18 = Gibson_Les_Paul_54_Custom.jpg
+No info found for arg: inventors
+related not available in the infobox
+For template arg: range -> P2343 = [[File:Range guitar.svg|130px|center]]<div class="center">(a standard tuned guitar)
+</div>
+
+Iterate through available statements:
+For property: P18 = ["File:Yngwie Malmsteen's electric guitar.jpg"]
+For property: P1762 = ['513']
+For property: P61 = ['Q596713']
+For property: P2343 = ['File:Range guitar.svg']
+****************************************
+The title of the loaded item is: Violin with Q-label: Q8355
+Template name: Infobox Instrument
+
+For template arg: hornbostel_sachs -> P1762 = 321.322-71
+For template arg: name -> P2561 = Violin
+For template arg: image -> P18 = Violin VL100.png
+inventors not available in the infobox
+For template arg: related -> P7084 = *'''[[Violin family]]''' ([[viola]], [[cello]], [[double bass]])
+*[[Viol]] family (some historians argue the [[double bass]] developed from the bass viol)
+For template arg: range -> P2343 = [[File:Range violin.png|130px|center]]
+
+Iterate through available statements:
+For property: P18 = ['File:Violin VL100.png']
+For property: P1762 = ['321.322-71']
+For property: P2343 = ['File:Range violin.png']
+****************************************
+The title of the loaded item is: Flute with Q-label: Q11405
+Infobox is not available
+ERROR: could not parse the infobox of the wiki item
+
+Iterate through available statements:
+For property: P18 = ['File:Fluiers.jpg', 'File:Flûte nasale MHNT ETH AC FI 47 Gaston de Roquemaurel.jpg', 'File:Eight Flute1.JPG']
+For property: P1762 = ['421']
+For property: P2343 = ['File:Range flute.png']
+****************************************
+The structure of the article {page.title()} is (section headers): 
+[None, 'Etymology and terminology', 'History', 'Acoustics', 'Types of flutes', 'Western transverse flutes', 'Wooden one-keyed transverse flute', 'Western concert flute', 'Western concert flute variants', 'Indian flutes', 'Chinese flutes', ' Korean flutes ', 'Japanese flutes', 'Sodina and suling', 'Sring', 'Breathing Techniques', 'See also', 'References', 'Bibliography', 'External links']
