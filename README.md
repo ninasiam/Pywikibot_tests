@@ -16,7 +16,7 @@ In the myscript_task3.py the following tasks are implemented:
    - Parse a wikipedia article and print a list of statements (if available), indicated by the user.
    - Print the corresponding statements from wikidata.
    - Repeat the process for a series of articles that share the same infobox template.
-   - Print the structure of the aricle (section headers).
+   - Print the structure of the article (section headers).
 
 # Built with
   - pywikibot
