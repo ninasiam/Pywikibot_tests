@@ -17,3 +17,8 @@ In the myscript_task3.py the following tasks are implemented:
    - Print the corresponding statements from wikidata.
    - Repeat the process for a series of articles that share the same infobox template.
    - Print the structure of the aricle (section headers).
+
+# Built with
+  - pywikibot
+  - wikitextparser
+  - myparserfromhell
