@@ -1,0 +1,163 @@
+Item(s) correspond for the search key: Piano
+************************************************************
+1: piano, musical instrument
+2: The Piano, 1993 romantic drama film directed by Jane Campion
+3: Piano, commune in Haute-Corse, France
+4: Piano, family name
+5: piano, music dynamic
+6: Piano, vocal track by Mina; 1960 studio recording
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q5994
+
+Item(s) correspond for the search key: Greece
+************************************************************
+1: Greece, country in southeastern Europe
+2: Ancient Greece, civilization belonging to an early period of Greek history
+3: Greece, constituency of the European Parliament
+4: Second Hellenic Republic, former country
+5: Greece, town in New York, United States
+6: 4th of August Regime, totalitarian regime led by General Ioannis Metaxas that ruled the Kingdom of Greece from 1936 to 1941
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q41
+
+Item(s) correspond for the search key: Lyre
+************************************************************
+1: lyre, string instrument from Greek classical antiquity
+2: Lyre, townland in Tincoora, County Cork, Ireland
+3: Lyre, painting by Kenneth Noland
+4: lyre, Lyre, African
+5: Description is not available, iterate through claims to get more information: 
+Property: P31 -> Value is:  [[wikidata:Q215380]]
+Property: P856 -> Value is:  http://www.sakaeshalom.org/lyre/
+Property: P214 -> Value is:  241224468
+Property: P7859 -> Value is:  viaf-241224468
+Property: P136 -> Value is:  [[wikidata:Q1379958]]
+Property: P2031 -> Value is:  {
+    "after": 0,
+    "before": 0,
+    "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+    "precision": 9,
+    "time": "+00000001994-00-00T00:00:00Z",
+    "timezone": 0
+}
+Property: P2671 -> Value is:  /g/1210xr_r
+6: Lyre, townland in Mountstuart, County Waterford, Ireland
+Select one of the above (using the number) to get the QID value: 2
+The selected QID: Q3782415
+
+Item(s) correspond for the search key: Elytis
+************************************************************
+1: Odysseas Elytis, Greek poet and art critic
+2: Description is not available, iterate through claims to get more information: 
+Property: P31 -> Value is:  [[wikidata:Q2085381]]
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q160478
+
+Item(s) correspond for the search key: Harp
+************************************************************
+1: harp, class of musical instruments
+2: Willem van Herp, Flemish painter (1614-1677)
+3: Ron Harper, American basketball player
+4: ANKS4B, protein-coding gene in the species Homo sapiens
+5: Derek Harper, American basketball player
+6: PANK2, protein-coding gene in the species Homo sapiens
+7: HRP Rescuer, helicopter family by Piasecki Helicopter, later Vertol
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q47369
+
+Item(s) correspond for the search key: Convex
+************************************************************
+disambiguation page
+2: convex mushroom cap, description is not available, iterate through claims to get more information: 
+Property: P279 -> Value is:  [[wikidata:Q694118]]
+Property: P2910 -> Value is:  [[commons:File:Convex cap icon.svg]]
+3: Convex Optimization, e-book edition from 2013
+4: kite, convex quadrilateral whose four sides can be grouped into two pairs of equal-length sides that are adjacent to each other
+5: convex set, subset of an affine space that is closed under convex combinations
+6: convex polygon, convex hull of a finite set of points in a plane
+7: convex function, real function with secant line between points above the graph itself
+Select one of the above (using the number) to get the QID value: 5
+The selected QID: Q193657
+
+Item(s) correspond for the search key: Machine Learning
+************************************************************
+1: machine learning, Scientific study of algorithms and statistical models that computer systems use to perform tasks without explicit instructions
+2: Machine Learning, journal
+3: Machine Learning, description is not available, iterate through claims to get more information: 
+Property: P356 -> Value is:  10.4018/978-1-60566-026-4.CH392
+Property: P31 -> Value is:  [[wikidata:Q13442814]]
+Property: P1476 -> Value is:  {
+    "language": "en",
+    "text": "Machine Learning"
+}
+Property: P304 -> Value is:  2462-2468
+Property: P2093 -> Value is:  João Gama
+Property: P2093 -> Value is:  André C.P.L.F. de Carvalho
+Property: P921 -> Value is:  [[wikidata:Q2539]]
+4: Machine Learning, description is not available, iterate through claims to get more information: 
+Property: P31 -> Value is:  [[wikidata:Q5633421]]
+Property: P8375 -> Value is:  374007
+5: Machine Learning, 1838th strip of the webcomic xkcd
+6: Machine learning, description is not available, iterate through claims to get more information: 
+Property: P356 -> Value is:  10.1002/047134608X.W4321
+Property: P31 -> Value is:  [[wikidata:Q13442814]]
+Property: P1476 -> Value is:  {
+    "language": "en",
+    "text": "Machine learning"
+}
+Property: P577 -> Value is:  {
+    "after": 0,
+    "before": 0,
+    "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+    "precision": 11,
+    "time": "+00000001999-12-27T00:00:00Z",
+    "timezone": 0
+}
+Property: P50 -> Value is:  [[wikidata:Q7916327]]
+Property: P921 -> Value is:  [[wikidata:Q2539]]
+7: Machine Learning, description is not available, iterate through claims to get more information: 
+Property: P356 -> Value is:  10.4018/978-1-60960-818-7.CH102
+Property: P31 -> Value is:  [[wikidata:Q13442814]]
+Property: P1476 -> Value is:  {
+    "language": "en",
+    "text": "Machine Learning"
+}
+Property: P304 -> Value is:  13-22
+Property: P2093 -> Value is:  João Gama
+Property: P2093 -> Value is:  André C.P.L.F. de Carvalho
+Property: P921 -> Value is:  [[wikidata:Q2539]]
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q2539
+
+Item(s) correspond for the search key: Affine space
+************************************************************
+1: affine space, geometric structure that generalizes the Euclidean space
+2: Affine space over triangulated categories: A further invitation to Grothendieck derivators, scientific article published in July 2017
+Select one of the above (using the number) to get the QID value: n
+ERROR: give a valid input (int) according the list above
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q382698
+
+Item(s) correspond for the search key: linked in
+************************************************************
+1: LinkedIn, social networking website for people in professional occupations
+2: Linked independent component analysis for multimodal data fusion., scientific article
+3: Linked in: formation and regulation of microtubule attachments during chromosome segregation., scientific article published on 07 January 2014
+4: Linked indirect effects in ant-phorid interactions: impacts on ant assemblage structure., scientific article published on December 2002
+5: Linked indicator sets for addressing biodiversity loss, article
+6: Linked-in: design and efficacy of antibody drug conjugates in oncology, scientific article published on March 2013
+7: Linked in: immunologic membrane nanotube networks, scientific article published on March 2016
+Select one of the above (using the number) to get the QID value: 1
+The selected QID: Q213660
+
+Item(s) correspond for the search key: Scala
+************************************************************
+1: La Scala, opera house in Milan, Italy
+2: Scala, programming language
+disambiguation page
+4: Scala, family name
+5: Teatro Maipo, theatre and former cinema in Buenos Aires, Argentina
+6: Scala, former music hall venue in Paris, France
+7: Johann-Strauß-Theater, former theatre and cinema in Vienna, Austria
+Select one of the above (using the number) to get the QID value: 2
+The selected QID: Q460584
