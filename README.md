@@ -18,6 +18,10 @@ In the myscript_task3.py the following tasks are implemented:
    - Repeat the process for a series of articles that share the same infobox template.
    - Print the structure of the article (section headers).
 
+## Task 5
+In the myscript_task5.py the following tasks are implemented:
+   - A function that makes a request to the MediaWiki API, based a given searck key.
+   - A function that collects the results of the previous request, prints the description of each item retrieved and return the QID value.
 # Built with
   - pywikibot
   - wikitextparser
