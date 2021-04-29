@@ -1,0 +1,47 @@
+Item: Drum kit, with given parameter: ['instrument', 'P1762']
+************************************************************
+Item description: collection of drums and other percussion instruments
+The selected QID: Q128309
+
+Item: Flute, with given parameter: ['instrument', 'P1762']
+************************************************************
+Item description: musical instrument of the woodwind family
+The selected QID: Q11405
+
+Item: Harp, with given parameter: ['instrument', 'P1762']
+************************************************************
+Item description: class of musical instruments
+The selected QID: Q47369
+
+Item: Piano, with given parameter: ['instrument', 'P1762']
+************************************************************
+Item description: musical instrument
+The selected QID: Q5994
+
+Item: Odysseas Elytis, with given parameter: ['writer', 'P21']
+************************************************************
+The selected QID: Q160478
+
+Item: Scala, with given parameter: ['programming', 'P3966']
+************************************************************
+Item description: programming language
+The selected QID: Q460584
+
+Item: Python, with given parameter: ['programming', 'P3966']
+************************************************************
+Item description: general-purpose programming language
+The selected QID: Q28865
+
+Item: Java, with given parameter: ['programming', 'P3966']
+************************************************************
+Item description: object-oriented programming language
+The selected QID: Q251
+
+Item: Berlin, with given parameter: ['city', 'P1376']
+************************************************************
+Item description: federal state, capital and largest city of Germany
+The selected QID: Q64
+
+Item: Berlin, with given parameter: ['P1376']
+************************************************************
+The selected QID: Q64

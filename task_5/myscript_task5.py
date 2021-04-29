@@ -35,8 +35,8 @@ def search_entities(site_repo, item_title: str) -> dict:
         return
 
 def choose_item(site_repo, data_dict: dict) -> None:
-    """ Print the description of the itemsretrived from the request to the API
-
+    """ Print the description of the itemsretrived from the request to the API.
+        Requires user interaction.
         In:
         data_dict (dict): dictionary that contains the data retrieved.
 
@@ -50,6 +50,7 @@ def choose_item(site_repo, data_dict: dict) -> None:
         item_n = 1
         for item in items_found:
             try:
+                print(item)
                 if item['description'] != "Wikimedia disambiguation page":
                     print(f"{item_n}: {item['label']}, {item['description']}")
                     item_n += 1
@@ -80,15 +81,110 @@ def choose_item(site_repo, data_dict: dict) -> None:
             except:
                 print("ERROR: give a valid input (int) according the list above")
 
+def check_for_claim(site_repo, item, search_param: list) -> None:
+    
+    test_qid = item['id'].strip()                                                                               # Qid for item without description
+    item_page = pywikibot.ItemPage(site_repo, test_qid)
+    wd_item_dict = item_page.get()
+    dict_claims = wd_item_dict['claims']
+    for claim in dict_claims.keys():
+        if claim.strip() in search_param:
+            print(f"The selected QID: {test_qid}")
+            return True
+
+
+def search_entities_categories(article: str) -> dict:
+    """ Make a request to the MediaWiki API using the hardcoded parameters
+
+        In:
+        site_repo (site repository): the site repository.
+        item_title (str): a title of an article, a term etc.
+
+        Returns:
+        data_dict (dict): the result of the request to the API, organized in a dict object.
+    """
+    # Hardcoded parameters
+    try:
+        session = requests.Session()
+
+        url = "https://en.wikipedia.org/w/api.php"
+
+        params = {
+            "action": "query",
+            "format": "json",
+            "prop": "categories",
+            "titles": article        
+            }
+
+        request = session.get(url=url, params=params)
+        data_dict = request.json()
+        return data_dict
+    except:
+        print("ERROR: could not make request to MediaWiki API")
+        return
+
+
+def choose_item_without_prompt(site_repo, data_dict: dict, search_param: list) -> None:
+    """ Print the description of the itemsretrived from the request to the API
+
+        In:
+        data_dict (dict): dictionary that contains the data retrieved.
+        search_param (list): a search parameter list to further clarify the request.
+
+        Note: this gun
+
+    """
+    if data_dict:
+        number_of_items_found = len(data_dict['search'])
+        items_found = data_dict['search']
+        search_key = data_dict['searchinfo']['search'].strip()
+        print(f"Item: {search_key}, with given parameter: {search_param}")
+        print('*' * 60)
+        for item in items_found:
+            # print(item)
+            try:
+                if item['description'] != "Wikimedia disambiguation page":
+                    item_description = item['description'].lower().strip()
+                    if search_param[0].lower() in item_description:
+                        qid = item['id']
+                        print(f"Item description: {item['description']}")
+                        print(f"The selected QID: {qid}")
+                        break
+                    else:
+                        if check_for_claim(site_repo, item, search_param):
+                            return
+                        
+                else:
+                    print("disambiguation page")
+                    continue
+            except:
+                    if check_for_claim(site_repo, item, search_param):
+                        return
 def main():
     
     site = pywikibot.Site("en", "wikipedia")                                                                                 # Connect to enwiki
     site_repo = site.data_repository()
     # Check for an article names
-    article = "Scala"
-
+    article = "Berlin"
+    search_params  = ['P1376']
     data_dict = search_entities(site_repo, article)
-    choose_item(site_repo, data_dict)
+    choose_item_without_prompt(site_repo, data_dict, search_params)
+
+
+def main2():
+    site = pywikibot.Site("en", "wikipedia")                                                                                 # Connect to enwiki
+    site_repo = site.data_repository()
+    # Check for an article names
+    article = "France"
+
+    data_dict = search_entities_categories(article)
+    
+    found_items = data_dict["query"]["pages"]
+    print(found_items)
+    for k, v in found_items.items():
+        for cat in v['categories']:
+            print(cat["title"])
 
 if __name__ == '__main__':
     main()
+    # main2()
