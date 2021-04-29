@@ -22,7 +22,6 @@ In the myscript_task3.py the following tasks are implemented:
 In the myscript_task5.py the following tasks are implemented:
    - A function that makes a request to the MediaWiki API, based a given search key.
    - A function that collects the results of the previous request, prints the description of each item retrieved and return the QID value.
-   - 
 # Built with
   - pywikibot
   - wikitextparser
