@@ -60,7 +60,7 @@ def choose_item(site_repo, data_dict: dict) -> None:
                     continue
             except:
                 print(f"{item_n}: {item['label']}, description is not available, iterate through claims to get more information: ")
-                test_qid = item['id'].strip()                                                                               # Qid for item without description
+                test_qid = item['id'].strip()                                                                               
                 item_page = pywikibot.ItemPage(site_repo, test_qid)
                 wd_item_dict = item_page.get()
                 dict_claims = wd_item_dict['claims']
@@ -81,9 +81,20 @@ def choose_item(site_repo, data_dict: dict) -> None:
             except:
                 print("ERROR: give a valid input (int) according the list above")
 
-def check_for_claim(site_repo, item, search_param: list) -> None:
-    
-    test_qid = item['id'].strip()                                                                               # Qid for item without description
+def check_for_claim(site_repo, item, search_param: list) -> bool:
+    """ Check if an item has the given claim
+
+        In:
+        site_repo (site repository): the site repository.
+        item (wikidata item):  retrieved from the request.
+        search_param (list): a search parameter list to further clarify the request.
+
+        Returns:
+        status bool
+
+    """
+
+    test_qid = item['id'].strip()                                                                              
     item_page = pywikibot.ItemPage(site_repo, test_qid)
     wd_item_dict = item_page.get()
     dict_claims = wd_item_dict['claims']
@@ -131,7 +142,6 @@ def choose_item_without_prompt(site_repo, data_dict: dict, search_param: list) -
         data_dict (dict): dictionary that contains the data retrieved.
         search_param (list): a search parameter list to further clarify the request.
 
-        Note: this gun
 
     """
     if data_dict:
@@ -172,7 +182,7 @@ def main():
 
 
 def main2():
-    site = pywikibot.Site("en", "wikipedia")                                                                                 # Connect to enwiki
+    site = pywikibot.Site("en", "wikipedia")                                                                                 
     site_repo = site.data_repository()
     # Check for an article names
     article = "France"
